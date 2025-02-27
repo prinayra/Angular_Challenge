@@ -1,0 +1,175 @@
+.full-width {
+  width: 100%;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 16px;
+  border-radius: 8px;
+  background: linear-gradient(to right, #ffffff, #f8bbd0, #e1bee7);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+mat-form-field {
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
+mat-label, .radio-label, .slider-label {
+  font-weight: bold;
+  font-size: 16px;
+  color: #a974c5;
+}
+
+.slider-label {
+  margin-bottom: 10px;
+}
+
+.gender-radio-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+
+}
+
+mat-radio-button {
+  color: #f48fb1 !important;
+  margin-right: 10px;
+
+}
+
+.slider-group {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+button {
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #f8bbd0 !important;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  transition: 0.3s;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: #a974c5 !important;
+  transform: scale(1.05);
+}
+
+p {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #a974c5;
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+mat-expansion-panel {
+  margin-bottom: 15px;
+}
+
+mat-expansion-panel-header {
+  background: #f8bbd0 !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.mat-expansion-panel-header-title {
+  font-size: 18px;
+}
+
+.mat-expansion-panel-header-description {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.mat-expansion-panel-content {
+  padding: 15px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.radio-label {
+  margin-right: 10px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode mat-card {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode mat-form-field,
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+  background-color: #444;
+  color: white;
+  border: 1px solid #666;
+}
+
+.dark-mode mat-expansion-panel {
+  background-color: #222;
+  color: white;
+}
+
+.dark-mode mat-slide-toggle {
+  color: white;
+}
+
+.dark-mode button {
+  background-color: #555;
+  color: white;
+}
+
+.dark-mode mat-slider {
+  color: #bb86fc;
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
